@@ -1,0 +1,199 @@
+{ rules = ( 
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForCalendarPage; 
+        value = ERCalendarBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForCompactInspectPage; 
+        value = ERCompactInspectBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForCompactListPage; 
+        value = ERCompactListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForConfirmPage; 
+        value = ERConfirmBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForCSVGroupingListPage; 
+        value = ERCSVGroupingListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForCSVListPage; 
+        value = ERCSVListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForGroupingListPage; 
+        value = ERGroupingListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForGroupingListXMLPage; 
+        value = ERGroupingListXMLBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForGroupingPrinterFriendlyListPage; 
+        value = ERGroupingPrinterFriendlyListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForInspectPage; 
+        value = ERInspectBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForListComparePage; 
+        value = ERListCompareBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForListPage; 
+        value = ERListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForListXMLPage; 
+        value = ERListXMLBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForMessagePage; 
+        value = ERMessageBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForPickListPage; 
+        value = ERPickListBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForPickTypePage; 
+        value = ERPickTypeBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForPrinterFriendlyInspectPage; 
+        value = ERPrinterFriendlyInspectBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForProgressPage; 
+        value = ERProgressBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForQueryEntitiesPage; 
+        value = ERQueryEntitiesBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForQueryPage; 
+        value = ERQueryBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForTabInspectPage; 
+        value = ERTabInspectBootstrap; 
+    }; 
+},
+{
+    author = 20; 
+    class = com.webobjects.directtoweb.Rule; 
+    rhs = {
+        class = com.webobjects.directtoweb.Assignment; 
+        keyPath = templateNameForWizardCreationPage; 
+        value = ERWizardCreationBootstrap; 
+    }; 
+} );}

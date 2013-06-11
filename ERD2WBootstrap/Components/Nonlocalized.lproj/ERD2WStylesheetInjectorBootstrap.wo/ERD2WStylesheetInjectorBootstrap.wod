@@ -1,0 +1,14 @@
+StylesheetRepetition : WORepetition {
+  list = d2wContext.stylesheets;
+  item = stylesheetName;
+}
+
+StylesheetInjector : CCResourceInjector {
+  filename = stylesheet.filename;//VALID
+  framework = resourceFrameworkName;
+  media = stylesheet.media;//VALID
+}
+
+NonNullStylsheetConditional : ERXNonNullConditional {
+    condition = stylesheet;
+}

@@ -1,0 +1,50 @@
+<webobject name = "PageWrapper">
+  <webobject name = "Help" />
+  <table class = "InspectTable">
+    <tr>
+      <td class = "Header">
+        <webobject name = "Header" />
+        <webobject name = "HasChangesMarker" />
+      </td>
+    </tr>
+    <webobject name = "EditingForm">
+      <tr>
+        <td class = "TopActions">
+          <webobject name = "IsEditingConditional">
+            <webobject name = "CancelButton" />
+            <webobject name = "SubmitChanges" />
+          </webobject>
+          <webobject name = "IsNotEditingConditional">
+            <webobject name = "ShowCancel"><webobject name = "ReturnButton" /></webobject>
+            <webobject name = "IsObjectEditable"><webobject name = "EditButton" /></webobject>
+          </webobject>
+          <webobject name = "PrinterButton" />
+          <webobject name = "ActionBar" />
+          <webobject name = "Controller" />
+        </td>
+      </tr>
+      <tr>
+        <td class = "Errors"><webobject name = "Errors" /></td>
+      </tr>
+      <tr>
+        <td class = "Repetition"><webobject name = "InspectPageRepetition" /></td>
+      </tr>
+      <tr>
+        <td class = "Actions">
+          <webobject name = "IsEditingConditional">
+            <webobject name = "CancelButton" />
+            <webobject name = "SubmitChanges" />
+          </webobject>
+          <webobject name = "IsNotEditingConditional">
+            <webobject name = "ShowCancel"><webobject name = "ReturnButton" /></webobject>
+            <webobject name = "IsObjectEditable"><webobject name = "EditButton" /></webobject>
+          </webobject>
+          <webobject name = "HasChangesMarker" />
+          <webobject name = "PrinterButton" />
+          <webobject name = "ActionBar" />
+          <webobject name = "Controller" />
+        </td>
+      </tr>
+    </webobject>
+  </table>
+</webobject>

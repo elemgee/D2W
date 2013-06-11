@@ -1,0 +1,39 @@
+<webobject name = "PageWrapper">
+  <webobject name = "Help" />
+  <table class = "ListTable">
+    <tr>
+      <td class = "Header"><webobject name = "Header" /></td>
+    </tr>
+    <tr>
+      <td class = "TopActions">
+        <webobject name = "ShowCancel"><webobject name = "ReturnButton" /></webobject>
+        <webobject name = "PrinterButton" />
+        <webobject name = "MassMofidy" />
+        <webobject name = "Filter" />
+        <webobject name = "ActionBar" />
+      </td>
+    </tr>
+    <webobject name = "ListNotEmpty">
+      <tr>
+        <td class = "NavigationBarCell"><webobject name = "NavigationBar" /></td>
+      </tr>
+      <tr>
+        <td class = "Repetition"><webobject name = "ListPageRepetition" /></td>
+      </tr>
+    </webobject>
+    <webobject name = "ListEmpty">
+      <tr>
+        <td><webobject name = "EmptyMessageComponent" /></td>
+      </tr>
+    </webobject>
+    <tr>
+      <td class = "Actions">
+        <webobject name = "ShowCancel"><webobject name = "ReturnButton" /></webobject>
+        <webobject name = "PrinterButton" />
+        <webobject name = "MassMofidy" />
+        <webobject name = "Filter" />
+        <webobject name = "ActionBar" />
+      </td>
+    </tr>
+  </table>
+</webobject>
